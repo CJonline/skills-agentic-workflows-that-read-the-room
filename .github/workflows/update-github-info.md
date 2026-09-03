@@ -40,3 +40,5 @@ Keep Mona's GitHub Info content current while preserving her practical, review-f
 7. Open a draft pull request for Mona to review using the `create-pull-request` `safe-outputs`. Target `main`, explain what changed and cite the source pages. Do not write directly to `main` and do not modify files outside `site/content/github-info.md`.
 
 If there are no substantive updates worth publishing, leave the file unchanged and do not open a pull request.
+
+Keep summaries brief (2-3 sentences) so the page stays easy to skim.
