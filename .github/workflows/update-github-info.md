@@ -33,10 +33,12 @@ Keep Mona's GitHub Info content current while preserving her practical, review-f
 3. Use the web-fetch tool to fetch:
    - https://github.blog/latest/
    - https://github.blog/changelog/
-  - https://awesome-copilot.github.com/workflows/
+   - https://awesome-copilot.github.com/workflows/
 4. Identify a small set of recent, useful updates from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows that fit Mona's editorial angle. Prefer information that helps developers learn GitHub faster.
 5. Update only `site/content/github-info.md` with concise summaries, clear source labels, and links to the official GitHub Blog, GitHub Changelog, or Awesome Copilot workflows pages. Preserve useful existing content unless it is stale or contradicted by the fetched sources.
 6. Review the resulting content for accuracy, concise wording, working source links, and consistency with the repository guidance.
 7. Open a draft pull request for Mona to review using the `create-pull-request` `safe-outputs`. Target `main`, explain what changed and cite the source pages. Do not write directly to `main` and do not modify files outside `site/content/github-info.md`.
 
 If there are no substantive updates worth publishing, leave the file unchanged and do not open a pull request.
+
+Keep summaries brief (2-3 sentences) so the page stays easy to skim.
